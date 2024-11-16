@@ -4,18 +4,23 @@
     box-sizing: border-box;
 }
 
+/*Global Reset*/
+
 body {
     background-color: #e9e9e9;
+    /*Background Color*/
 }
 
 .Logo {
     display: flex;
     justify-content: center;
+    /*Center-align Logo*/
     margin: 20px 0;
 }
 
 li {
     font-family: "Josefin Sans", serif;
+    /*Import font*/
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
@@ -39,6 +44,7 @@ h1 {
 
 p {
     font-family: 'Josefin Sans', cursive;
+    /*Font Import*/
     font-size: 24px;
     padding-left: 50px;
     padding-right: 25px;
@@ -46,6 +52,7 @@ p {
 
 .Boxed {
     border: 1px solid #000;
+    /*Border*/
     padding: 80px;
     background-color: #fff;
     border-radius: 0;
@@ -101,7 +108,7 @@ h5 {
     margin-left: 400px;
 }
 
-.profile2{
+.profile2 {
     display: none;
 }
 
@@ -115,11 +122,15 @@ footer {
     padding: 50px 50px;
 }
 
-.author-header{
-  padding-left: 200px;
-  margin-left: -200px;
+.author-header {
+    padding-left: 200px;
+    margin-left: -200px;
 }
 
+
+/*Media Queries*/
+
+/*Mobile Media Query*/
 @media (min-width: 360px) and (max-width: 540px) {
     .Logo img {
         width: 70px;
@@ -218,6 +229,7 @@ footer {
     }
 }
 
+/*Large Mobile Media Query*/
 @media (min-width: 540px) and (max-width: 720px) {
     .Logo img {
         width: 90px;
@@ -282,6 +294,7 @@ footer {
     }
 }
 
+/*Tablet Media Query*/
 @media (min-width: 720px) and (max-width: 1024px) {
     .Logo img {
         width: 85px;
@@ -377,7 +390,8 @@ footer {
     }
 }
 
-@media (min-width: 1024px){
+/*Laptop Media Query*/
+@media (min-width: 1024px) {
     .Logo img {
         width: 200px;
     }
@@ -421,11 +435,11 @@ footer {
         text-align: left;
     }
 
-    .other-text{
+    .other-text {
         display: inline-block;
     }
 
-    li{
+    li {
         font-size: 25px;
         margin-left: 60px;
         margin-right: 60px;
@@ -443,7 +457,7 @@ footer {
         margin-left: 20px;
     }
 
-    .author-header{
+    .author-header {
         padding-bottom: 20px;
         margin-bottom: -35px;
         margin-left: 85px;
